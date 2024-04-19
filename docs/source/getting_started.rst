@@ -13,9 +13,11 @@ Step 1: Download RealProbe
 ------------
 
 First download the RealProbe on github.
+
 .. code-block:: console
 
-   $ git clone ----
+   $ git clone https://github.com/sharc-lab/RealProbe.git
+
    $ cd RealProbe
 
 Step 2: Download LLVM Build
@@ -25,7 +27,7 @@ You have two options depending on your needs:
   
 Option A: Downloading the Built Version
 This version is pre-compiled and ready to use with RealProbe. Ideal for users who do not need to modify the underlying tools.
-Download the Built Version: Click on the download link provided on the page.
+Download the Built Version: Click on the `Download <https://www.dropbox.com/scl/fi/6cr90f9q0gd3tohl9qwdx/hls-build.zip?rlkey=i0qrqj97mlcrvqmgd4itgruzg&dl=0>`_ link
 Save the file on your system: Choose an appropriate location on your computer to save the file.
   
 Option B: Downloading the Raw Version
@@ -45,7 +47,7 @@ Extract the Files: Unzip the source files to a suitable directory.
 Build the LLVM Toolchain:
 Open a terminal or command prompt.
 Navigate to the directory containing the source files.
-Follow the build instructions specific to Vitis HLS to compile the toolchain. https://github.com/Xilinx/hls-llvm-project/tree/2023.1 for build.)
+Follow the `build instructions <https://github.com/Xilinx/hls-llvm-project/tree/2023.1>`_ link specific to Vitis HLS to compile the toolchain.
 Integration with RealProbe: After building, integrate the custom LLVM build with RealProbe as per the provided documentation.
 
 Step 4: Set Up Your HLS Project
