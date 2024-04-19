@@ -7,3 +7,6 @@ with some basic Sphinx docs.
 Read the tutorial here:
 
 https://docs.readthedocs.io/en/stable/tutorial/
+
+RealProbe Documentation Link:
+https://github.com/sharc-lab/RealProbe-doc
