@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'RealProbe'
+copyright = '2021, Jiho Kim'
+author = 'Jiho Kim'
 
 release = '0.1'
 version = '0.1.0'
