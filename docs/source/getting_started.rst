@@ -7,9 +7,23 @@ This document provides a step-by-step guide on how to download and use RealProbe
 Prerequisites
 ------------
 
-Before starting, ensure that your Vitis HLS and Vivado version is v2023.1. 
+Before starting, ensure both Vitis HLS and Vivado version is v2023.1. 
 
-Step 1: Download RealProbe
+Directory Path Setup
+------------
+
+Ideally, this will be the ideal directory path setup for running RealProbe
+.. image:: ./filepath.png
+  :width: 400
+  :alt: <Directory Path Setup>
+
+based on this figure in mind, you can follow the below steps.
+
+Step 1: Set Up Your HLS Project
+----------------
+First, set up your HLS project folder. You have to prepare all C/C++ files to run HLS, also the hls.tcl script that runs Vitis HLS. Our GitHub repository offers many examples (in benchmark folder) so you can refer to tcl script to run Vitis HLS. 
+
+Step 2: Download RealProbe
 ------------
 
 First download the RealProbe on github.
@@ -20,7 +34,7 @@ First download the RealProbe on github.
 
    $ cd RealProbe
 
-Step 2: Download LLVM Build
+Step 3: Download LLVM Build
 ------------
 
 You have two options depending on your needs:
@@ -35,7 +49,7 @@ Select the Raw Version: If you plan to customize the LLVM build, download the ra
 Download the Raw Version: Click on the corresponding download link.
 Save the file on your system: Ensure you have the necessary tools to compile it later.
 
-Step 3: Setting Up the LLVM Build
+Step 4: Setting Up the LLVM Build
 ----------------
 
 For the Built Version
@@ -50,9 +64,8 @@ Navigate to the directory containing the source files.
 Follow the `build instructions <https://github.com/Xilinx/hls-llvm-project/tree/2023.1>`_ link specific to Vitis HLS to compile the toolchain.
 Integration with RealProbe: After building, integrate the custom LLVM build with RealProbe as per the provided documentation.
 
-Step 4: Set Up Your HLS Project
+Now you are all ready! Let's go to How to run section
 ----------------
-
 
 
 To retrieve a list of random ingredients,
