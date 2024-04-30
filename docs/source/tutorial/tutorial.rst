@@ -14,8 +14,8 @@ If you are interested in the first half of the tutorial regarding ⚡LightningSi
 
 
 Below are useful links related to RealProbe:
-   | RealProbe Github Repository: `https://github.com/sharc-lab/RealProbe <https://github.com/sharc-lab/RealProbe>`
-   | RealProbe FCCM 2024 Tutorial: `https://sharclab.ece.gatech.edu/open-source-projects/ <https://sharclab.ece.gatech.edu/open-source-projects/>`_
+   | RealProbe Github Repository: `Visit Github <https://github.com/sharc-lab/RealProbe>`_
+   | RealProbe FCCM 2024 Tutorial: `Visit Tutorial Page <https://sharclab.ece.gatech.edu/open-source-projects/>`_
    | Related Publication: `TOBEUPDATED <https://sharclab.ece.gatech.edu/>`_
 
 .. toctree::
