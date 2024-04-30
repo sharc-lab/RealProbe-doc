@@ -19,18 +19,21 @@ For running RealProbe, we need to setup 1. Synestia Desktop and 2. FPGA board se
   .. image:: ../img/ood_1.png
     :alt: <Open OnDemand web.>
     :width: 400
-  
+
+
   For RealProbe, select the “Synestia Desktop” under the “Synth & Emu” tab within the “Desktops” section as shown below.
   
   .. image:: ../img/ood_2.png
     :alt: Synestia Desktop.
     :width: 400
-  
+
+
   The system will take a few seconds to prepare and then transition to a "Running" state, at which point a button to launch the   Synestia Desktop will become available.
   
   .. image:: ../img/ood_3.png
     :alt: Running Synestia Desktop.
     :width: 400
+
 
 .. _fpgasetup:
 
@@ -41,24 +44,28 @@ For running RealProbe, we need to setup 1. Synestia Desktop and 2. FPGA board se
   .. image:: ../img/ood_4.png
     :alt: Pynq-Z2 server.
     :width: 400
-  
+
+
   Launch the Jupyter setup using the default configurations.
   
   .. image:: ../img/ood_5.png
     :alt: Jupyter interactive session launch.
     :width: 400
-  
+
+
   It will take a few seconds to prepare and then switch to "Running," making a "Connect to Jupyter" button available.
   
   .. image:: ../img/ood_6.png
     :alt: Jupyter session connect.
     :width: 400
-  
+
+
   Below is the interface of Jupyter Lab you will see after launching Jupyter.
   
   .. image:: ../img/ood_7.png
     :alt: Jupyter lab.
     :width: 400
+
 
 With this, the environment setup for the tutorial is complete!
 
