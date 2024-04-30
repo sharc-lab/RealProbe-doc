@@ -10,7 +10,18 @@ FCCM 2024 Tutorial
 
 Understanding FPGA design performance is crucial for optimizing designs and meeting performance targets. 
 
-Performance is evaluated in two ways: simulated in terms of cycle count, and measured on-board in terms of latency/throughput. Both are challenging to obtain accurately and efficiently, largely hindering FPGA design optimizations.
+.. image:: ../img/realprobe_long_logo_cap.png
+  :alt: RealProbe
+  :width: 600
+
+.. _schedule:
+
+Tutorial Schedule
+------------
+
+Orlando, Florida
+Date/Time: Sunday May 5th, 12:30 pm - 3:00 pm, EST
+Youtube Live Stream link: `TO BE UPDATED <https://www.fccm.org/>`_
 
 Part 1: Simulated performance (LightningSim)
 
@@ -28,7 +39,7 @@ Schedule: 1:40 pm — 3:00 pm
 
 Organizers
 ------------
-Jiho Kim, `Sharc Lab <https://sharclab.ece.gatech.edu/>`_, `Georgia Tech <https://www.gatech.edu/>`_
+`Jiho Kim <https://jihoray.github.io/>`_, `Sharc Lab <https://sharclab.ece.gatech.edu/>`_, `Georgia Tech <https://www.gatech.edu/>`_
 
 Cong "Callie" Hao, `Sharc Lab <https://sharclab.ece.gatech.edu/>`_, `Georgia Tech <https://www.gatech.edu/>`_
 
