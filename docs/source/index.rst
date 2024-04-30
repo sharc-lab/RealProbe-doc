@@ -4,38 +4,32 @@ RealProbe
 .. toctree::
    :maxdepth: 2
    :hidden:
+   :caption: About
+
+   /about/about
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
    :caption: Getting started
 
-   /getting_started
-   /choosing-a-site
-   /intro/getting-started-with-sphinx
-   /intro/getting-started-with-mkdocs
-   /intro/import-guide
-   /examples
+   /getting_started/getting_started
 
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Project setup and configuration
+   :caption: Usage
 
-   /config-file/index
-   /config-file/v2
-   /automation-rules
-   /guides/reproducible-builds
+   /usage/usage
 
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Build process
+   :caption: Customize
 
-   /builds
-   /build-customization
-   /reference/git-integration
-   /pull-requests
-   /build-notifications
-   /environment-variables
-   /reference/environment-variables
+   /customize/customize
 
+<!---
 .. toctree::
    :maxdepth: 2
    :hidden:
@@ -48,6 +42,7 @@ RealProbe
    /explanation/documentation-structure
    /guides/best-practice/links
    /security-implications
+---!>
 
 : On-FPGA profiling tool for HLS designs
 
