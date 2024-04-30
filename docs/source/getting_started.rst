@@ -13,8 +13,7 @@ Directory Path Setup
 ------------
 
 Ideally, this will be the ideal directory path setup for running RealProbe
-.. image:: ./filepath.png
-  :width: 400
+.. image:: /img/filepath.png
   :alt: <Directory Path Setup>
 
 based on this figure in mind, you can follow the below steps.
