@@ -29,20 +29,26 @@ RealProbe
 
    ./customize/customize
 
-<!---
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Maintaining projects
+   :caption: Tutorial (FCCM 2024)
 
-   /user-defined-redirects
-   /reference/analytics
-   /security-log
-   /badges
-   /explanation/documentation-structure
-   /guides/best-practice/links
-   /security-implications
----!>
+   ./tutorial_fccm/tutorial
+
+..
+   .. toctree::
+      :maxdepth: 2
+      :hidden:
+      :caption: Maintaining projects
+   
+      /user-defined-redirects
+      /reference/analytics
+      /security-log
+      /badges
+      /explanation/documentation-structure
+      /guides/best-practice/links
+      /security-implications
 
 : On-FPGA profiling tool for HLS designs
 
