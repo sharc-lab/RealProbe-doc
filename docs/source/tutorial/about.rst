@@ -18,9 +18,9 @@ Tutorial Schedule
      | **>> Part 2: Measured performance (RealProbe)**
 
 RealProbe Tutorial Schedule: 1:40 pm — 3:00 pm
-     | 1:40 – 1:50: Introduction to the RealProbe tool
-     | 1:50 – 2:40: Hands-on experiments using RealProbe
-     | 2:40 – 3:00: Discussion and closing
+     | 1:40 pm – 1:50 pm : Introduction to the RealProbe tool
+     | 1:50 pm – 2:40 pm : Hands-on experiments using RealProbe
+     | 2:40 pm – 3:00 pm : Discussion and closing
 
 .. _organizers:
 
