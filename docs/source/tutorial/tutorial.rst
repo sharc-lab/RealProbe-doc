@@ -34,9 +34,11 @@ Cong "Callie" Hao, `Sharc Lab <https://sharclab.ece.gatech.edu/>`_, `Georgia Tec
 
 .. image:: ../img/sharc_logo.png
   :alt: Sharc Lab
+  :width: 300
 
 .. image:: ../img/gt_logo.png
   :alt: Georgia Tech
+  :width: 300
 
 .. toctree::
   :hidden:
