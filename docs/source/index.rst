@@ -87,7 +87,7 @@ We have a few places for you to get started:
 
 .. descriptions here are active
 
-:doc:`/tutorial/index`
+:doc:`/tutorial/getting_started`
   Take the first practical steps with Read the Docs.
 
 :doc:`/choosing-a-site`
