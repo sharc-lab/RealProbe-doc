@@ -9,23 +9,18 @@ Tutorial Information
 Tutorial Schedule
 ------------
 
-Orlando, Florida
+| Orlando, Florida
+| Date/Time: Sunday May 5th, 12:30 pm - 3:00 pm, EST
+| Youtube Live Stream link: `TOBEUPDATED <https://www.fccm.org/>`_
 
-Date/Time: Sunday May 5th, 12:30 pm - 3:00 pm, EST
+"Understanding your FPGA design better" Tutorial
+     | Part 1: Simulated performance (LightningSim)
+     | **>> Part 2: Measured performance (RealProbe)**
 
-Youtube Live Stream link: `TO BE UPDATED <https://www.fccm.org/>`_
-
-Part 1: Simulated performance (LightningSim)
-
->> Part 2: Measured performance (RealProbe)
-
-Schedule: 1:40 pm — 3:00 pm
-
-   1:40 – 1:50: Introduction to the RealProbe tool
-
-   1:50 – 2:40: Hands-on experiments using RealProbe
-
-   2:40 – 3:00: Discussion and closing
+RealProbe Tutorial Schedule: 1:40 pm — 3:00 pm
+     | 1:40 – 1:50: Introduction to the RealProbe tool
+     | 1:50 – 2:40: Hands-on experiments using RealProbe
+     | 2:40 – 3:00: Discussion and closing
 
 .. _organizers:
 
