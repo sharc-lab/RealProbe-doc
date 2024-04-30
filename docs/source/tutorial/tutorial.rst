@@ -1,7 +1,7 @@
 FCCM 2024 Tutorial
 ========
 
-Welcome to the tutorial for the `The 32nd IEEE International Symposium On Field-Programmable Custom Computing Machines (FCCM)<https://www.fccm.org/>`_. This session focuses on "Understanding Your FPGA Design Better: From Rapid Simulation to On-board Profiling."
+Welcome to the tutorial for the `The 32nd IEEE International Symposium On Field-Programmable Custom Computing Machines (FCCM) <https://www.fccm.org/>`_. This session focuses on "Understanding Your FPGA Design Better: From Rapid Simulation to On-board Profiling."
 
 .. image:: ../img/realprobe_long_logo.png
   :alt: RealProbe
