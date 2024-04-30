@@ -4,6 +4,13 @@ RealProbe
 .. toctree::
    :maxdepth: 2
    :hidden:
+   :caption: Tutorial (FCCM 2024)
+
+   ./tutorial/tutorial
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
    :caption: About
 
    ./about/about
@@ -29,57 +36,34 @@ RealProbe
 
    ./customize/customize
 
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Tutorial (FCCM 2024)
 
-   ./tutorial_fccm/tutorial
 
-..
-   .. toctree::
-      :maxdepth: 2
-      :hidden:
-      :caption: Maintaining projects
-   
-      /user-defined-redirects
-      /reference/analytics
-      /security-log
-      /badges
-      /explanation/documentation-structure
-      /guides/best-practice/links
-      /security-implications
 
 : On-FPGA profiling tool for HLS designs
 
-Read the Docs simplifies software documentation
-by building, versioning, and hosting of your docs, automatically.
-Treating documentation like code keeps your team in the same tools,
-and your documentation up to date.
+RealProbe is an on-FPGA profiling tool for HLS designs. 
+Simply adding one line of “#pragma HLS RealProbe” will give you 
+a full understanding of your HLS design running on FPGAs, 
+with a full hierarchy into all sub-modules, function calls, and loops. 
 
-Up to date documentation
-    Whenever you push code to Git,
-    Read the Docs will automatically build your docs
-    so your code and documentation are always up-to-date.
-    Get started with our :doc:`tutorial </tutorial/index>`.
+Features
+----------------
 
-Documentation for every version
-    Read the Docs can host multiple versions of your docs.
-    Keep your 1.0 and 2.0 documentation online,
-    pulled directly from Git.
-    Start hosting all your :doc:`versions </versions>`.
+Fully Automated
+    RealProbe is the first end-to-end profiler from HLS source code to bitstream generation and on-FPGA execution. 
+    All profiling process operates with zero user manual effort.
 
-Open source and user focused
-    Our company is bootstrapped and 100% user-focused,
-    so our product gets better for our users instead of our investors.
-    |org_brand| hosts documentation for over 100,000 large
-    and small open source projects.
-    |com_brand| supports hundreds of organizations with product and internal documentation.
-    Learn more about :doc:`our two platforms </choosing-a-site>`.
+Easy integration
+    RealProbe is fully integrated into Vitis HLS and Vivado toolchain, 
+    no extra environment settings, tool installations, or dependencies are required.
+
+Open source
+    RealProbe is publicly accessible and continuously developed and maintained for ongoing improvement and support.
 
 .. note::
 
    This project is under active development.
+
 
 First time here?
 ----------------
@@ -88,11 +72,11 @@ We have a few places for you to get started:
 
 .. descriptions here are active
 
-:doc:`/tutorial/getting_started`
+:doc:`/getting_started`
   Take the first practical steps with Read the Docs.
 
 :doc:`/choosing-a-site`
-  Learn about the differences between |org_brand| and |com_brand|.
+.. Learn about the differences between |org_brand| and |com_brand|.
 
 :doc:`/examples`
   Start your journey with an example project to hit the ground running.
