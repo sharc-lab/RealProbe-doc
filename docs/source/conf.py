@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'RealProbe'
-copyright = '2021, Jiho Kim'
+copyright = '2024, Jiho Kim, Georgia Tech.'
 author = 'Jiho Kim'
 
 release = '0.1'
