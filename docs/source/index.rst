@@ -6,28 +6,28 @@ RealProbe
    :hidden:
    :caption: About
 
-   /about/about
+   ./about/about
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: Getting started
 
-   /getting_started/getting_started
+   ./getting_started/getting_started
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: Usage
 
-   /usage/usage
+   ./usage/usage
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: Customize
 
-   /customize/customize
+   ./customize/customize
 
 <!---
 .. toctree::
