@@ -8,7 +8,7 @@ For this session, we will utilize the `Synestia Desktop <https://synestia-ood.cc
 CRNCH System Setup
 ------------
 
-For running RealProbe, we need to setup 1) Synestia Desktop and 2) FPGA board setup.
+For running RealProbe, we need to setup 1. Synestia Desktop and 2. FPGA board setup.
 
 .. _Synestiadesktop:
 
