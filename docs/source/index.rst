@@ -1,25 +1,153 @@
 RealProbe
-===================================
+: On-FPGA profiling tool for HLS designs
+=======================================
 
-**RealProbe** is an open-source fully-automated FPGA profiling tool working with Vitis HLS to probe the on-board performance of HLS designs.
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Getting started
 
-High-level synthesis (HLS) tools significantly expedite FPGA design exploration by rapidly generating diverse implementations through optimization directives with estimated performance. However, the estimated and simulated performance, especially the number of clock cycles, usually largely diverges from the actual cycle counts when executing a design on a real FPGA board. This hinders early identification of real bottlenecks and optimization opportunities for on-board performance. Moreover, profiling on-board cycle counts is very challenging, requiring cumbersome register-transfer-level code inspection and manual monitoring of internal signals, thereby diminishing the convenience of HLS.
-Therefore, to provide users with a comprehensive understanding of actual on-FPGA performance, we propose \texttt{RealProbe}, the first fully-automated profiling tool to extract real on-FPGA performance.
-With just one line---\texttt{\#pragma HLS RealProbe}---our tool automatically generates all the code necessary to profile the exact cycle counts of an entire function hierarchy on-board.
-RealProbe is integrated into Vitis HLS and Vivado toolchain in a fully automated manner, with no user interaction required and no impact on kernel functionality.
-Evaluated with 26 test cases and validated the functionality with the integrated logic analyzer, RealProbe guarantees 100\% accuracy in on-board cycle counts with minimal logic overhead. We hope RealProbe to extend the capabilities of Vitis HLS, offering a user-friendly solution for designers to optimize designs based on actual on-board performance. 
+   /tutorial/index
+   /choosing-a-site
+   /intro/getting-started-with-sphinx
+   /intro/getting-started-with-mkdocs
+   /intro/import-guide
+   /examples
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Project setup and configuration
+
+   /config-file/index
+   /config-file/v2
+   /automation-rules
+   /guides/reproducible-builds
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Build process
+
+   /builds
+   /build-customization
+   /reference/git-integration
+   /pull-requests
+   /build-notifications
+   /environment-variables
+   /reference/environment-variables
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Maintaining projects
+
+   /user-defined-redirects
+   /reference/analytics
+   /security-log
+   /badges
+   /explanation/documentation-structure
+   /guides/best-practice/links
+   /security-implications
+
+
+Read the Docs simplifies software documentation
+by building, versioning, and hosting of your docs, automatically.
+Treating documentation like code keeps your team in the same tools,
+and your documentation up to date.
+
+Up to date documentation
+    Whenever you push code to Git,
+    Read the Docs will automatically build your docs
+    so your code and documentation are always up-to-date.
+    Get started with our :doc:`tutorial </tutorial/index>`.
+
+Documentation for every version
+    Read the Docs can host multiple versions of your docs.
+    Keep your 1.0 and 2.0 documentation online,
+    pulled directly from Git.
+    Start hosting all your :doc:`versions </versions>`.
+
+Open source and user focused
+    Our company is bootstrapped and 100% user-focused,
+    so our product gets better for our users instead of our investors.
+    |org_brand| hosts documentation for over 100,000 large
+    and small open source projects.
+    |com_brand| supports hundreds of organizations with product and internal documentation.
+    Learn more about :doc:`our two platforms </choosing-a-site>`.
 
 .. note::
 
    This project is under active development.
 
-Contents
---------
+First time here?
+----------------
 
-.. toctree::
+We have a few places for you to get started:
 
-   getting_started
-   usage
+.. descriptions here are active
+
+:doc:`/tutorial/index`
+  Take the first practical steps with Read the Docs.
+
+:doc:`/choosing-a-site`
+  Learn about the differences between |org_brand| and |com_brand|.
+
+:doc:`/examples`
+  Start your journey with an example project to hit the ground running.
+
+Project setup and configuration
+-------------------------------
+
+Start with the basics of setting up your project:
+
+:doc:`/config-file/index`
+  Learn how to configure your project with a ``.readthedocs.yaml`` file.
+
+:doc:`/guides/reproducible-builds`
+  Learn how to make your builds reproducible.
+
+Build process
+-------------
+
+Build your documentation with ease:
+
+:doc:`/builds`
+  Overview of how documentation builds happen.
+
+:doc:`/pull-requests`
+  Setup pull request builds and enjoy previews of each commit.
+
+Hosting documentation
+---------------------
+
+Learn more about our hosting features:
+
+:doc:`/versions`
+  Host multiple versions of your documentation.
+
+:doc:`/subprojects`
+  Host multiple projects under a single domain.
+
+:doc:`/localization`
+  Host your documentation in multiple languages.
+
+:doc:`/versioning-schemes`
+  Learn about different versioning schemes.
+
+:doc:`/custom-domains`
+  Host your documentation on your own domain.
+
+Maintaining projects
+--------------------
+
+Keep your documentation up to date:
+
+:doc:`/user-defined-redirects`
+  Redirect your old URLs to new ones.
+
+:doc:`/reference/analytics`
+  Learn more about how users are interacting with your documentation.
+
+:doc:`/security-log`
+  Keep track of security events in your project.
