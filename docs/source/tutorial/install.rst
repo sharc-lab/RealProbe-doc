@@ -25,7 +25,7 @@ First, set up your HLS project folder. You have to prepare all C/C++ files to ru
 Step 2: Download RealProbe
 ------------
 
-First download the RealProbe on github.
+First download the RealProbe on github. It takes around ~2 minutes.
 
 .. code-block:: console
 
