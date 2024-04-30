@@ -1,6 +1,18 @@
 FCCM 2024 Tutorial
 ========
 
+.. toctree::
+  :hidden:
+
+  setup
+  prepare
+  install
+  usage
+  flow
+  ex1
+  ex2
+  ex3
+
 .. role:: underline
     :class: underline
 
@@ -51,14 +63,4 @@ Cong "Callie" Hao, `Sharc Lab <https://sharclab.ece.gatech.edu/>`_, `Georgia Tec
   :alt: Georgia Tech
   :width: 300
 
-.. toctree::
-  :hidden:
 
-  setup
-  prepare
-  install
-  usage
-  flow
-  ex1
-  ex2
-  ex3
