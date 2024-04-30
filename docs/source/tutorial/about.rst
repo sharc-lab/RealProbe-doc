@@ -1,4 +1,4 @@
-About
+Tutorial Information
 ========
 
 .. role:: underline
@@ -10,7 +10,9 @@ Tutorial Schedule
 ------------
 
 Orlando, Florida
+
 Date/Time: Sunday May 5th, 12:30 pm - 3:00 pm, EST
+
 Youtube Live Stream link: `TO BE UPDATED <https://www.fccm.org/>`_
 
 Part 1: Simulated performance (LightningSim)
