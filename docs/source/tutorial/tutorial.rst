@@ -1,12 +1,17 @@
 Tutorial
 ========
 
+FCCM 2024 tutorial
+
+
 .. toctree::
   :hidden:
 
-  setup-crnch
-  setup-local
+  setup
+  prepare
   install
-  ex1_matmul
-  ex2_hamming
-  ex3_manual
+  usage
+  flow
+  ex1
+  ex2
+  ex3
