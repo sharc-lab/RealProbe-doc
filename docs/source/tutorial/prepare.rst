@@ -10,6 +10,8 @@ CRNCH System Setup
 
 For running RealProbe, we need to setup 1) Synestia Desktop and 2) FPGA board setup.
 
+.. _Synestiadesktop:
+
 1) Synestia Desktop
 
   To access an interactive desktop for the tutorial, please visit `Open OnDemand <synestia-ood.cc.gatech.edu/>`_. Below image     is the screen you will see when you open the link. This support is available exclusively to participants attending in person.   If you plan to use RealProbe on your local machine, ensure you have Vitis HLS, Vivado, and a compatible FPGA board. The         server provided has both Vitis and Vivado version 2023.1 installed. 
@@ -29,6 +31,8 @@ For running RealProbe, we need to setup 1) Synestia Desktop and 2) FPGA board se
   .. image:: ../img/ood_3.png
     :alt: Running Synestia Desktop.
     :width: 400
+
+.. _fpgasetup:
 
 2) FPGA Board Setup
 
