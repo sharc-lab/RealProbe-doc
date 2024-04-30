@@ -1,4 +1,4 @@
-Tutorial FCCM 2024
+Tutorial
 ========
 
 .. toctree::
