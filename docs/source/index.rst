@@ -7,11 +7,18 @@ RealProbe
    :caption: FCCM 2024 Tutorial
 
    ./tutorial/tutorial
+   ./tutorial/about
+   ./tutorial/prepare
+   ./tutorial/install
+   ./tutorial/usage
+   ./tutorial/ex1
+   ./tutorial/ex2
+   ./tutorial/ex3
 
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: About
+   :caption: About RealProbe
 
    ./about/about
 
