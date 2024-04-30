@@ -4,7 +4,7 @@ RealProbe
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Tutorial (FCCM 2024)
+   :caption: FCCM 2024 Tutorial
 
    ./tutorial/tutorial
 
