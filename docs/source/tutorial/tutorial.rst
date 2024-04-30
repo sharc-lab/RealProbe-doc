@@ -1,18 +1,19 @@
 FCCM 2024 Tutorial
 ========
 
-Welcome! This is the tutorial for `The 32nd IEEE International Symposium On Field-Programmable Custom Computing Machines (FCCM)<https://www.fccm.org/>`_.
+Welcome to the tutorial for the `The 32nd IEEE International Symposium On Field-Programmable Custom Computing Machines (FCCM)<https://www.fccm.org/>`_. This session focuses on "Understanding Your FPGA Design Better: From Rapid Simulation to On-board Profiling."
 
-Our Tutorial Name is "Understanding Your FPGA Design Better: From Rapid Simulation to On-board Profiling"
-This page is for the second half of tutorial, about RealProbe🔍. If you are interested in first half of tutorial about ⚡LightningSim, a ultra-fast, accurate, trace-based simulator for High-Level Synthesis (HLS) designs, check out `LightningSim Tutorial <https://lightningsim-doc.readthedocs.io/en/latest/tutorial/index.html>`_ page.
-
-RealProbe is a fully automated on-board profiling tool designed to extract real on-FPGA performance simply by annotating the HLS source code. We will go through step-by-step introducing RealProbe and its usage with hands-on examples. 
-
-.. image:: ../img/realprobe_long_logo_cap.png
+.. image:: ../img/realprobe_long_logo.png
   :alt: RealProbe
   :width: 600
 
-You can find RealProbe related links below.
+This part of the tutorial is dedicated to RealProbe🔍, a fully automated on-board profiling tool designed to enhance your understanding of real on-FPGA performance through simple annotations in the HLS source code. We will guide you through the use of RealProbe with practical, hands-on examples.
+
+If you are interested in the first half of the tutorial regarding ⚡LightningSim, an ultra-fast and accurate trace-based simulator for High-Level Synthesis (HLS) designs, please visit the `LightningSim Tutorial <https://lightningsim-doc.readthedocs.io/en/latest/tutorial/index.html>`_.
+
+
+
+Below are useful links related to RealProbe:
 
 RealProbe Github Repository: `https://github.com/sharc-lab/RealProbe <https://github.com/sharc-lab/RealProbe>`_
 RealProbe FCCM 2024 Tutorial: `https://sharclab.ece.gatech.edu/open-source-projects/ <https://sharclab.ece.gatech.edu/open-source-projects/>`_
