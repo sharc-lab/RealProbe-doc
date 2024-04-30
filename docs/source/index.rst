@@ -1,5 +1,4 @@
 RealProbe
-: On-FPGA profiling tool for HLS designs
 =======================================
 
 .. toctree::
@@ -50,6 +49,7 @@ RealProbe
    /guides/best-practice/links
    /security-implications
 
+: On-FPGA profiling tool for HLS designs
 
 Read the Docs simplifies software documentation
 by building, versioning, and hosting of your docs, automatically.
