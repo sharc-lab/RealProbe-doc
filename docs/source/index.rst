@@ -6,7 +6,7 @@ RealProbe
    :hidden:
    :caption: Getting started
 
-   /tutorial/index
+   /getting_started
    /choosing-a-site
    /intro/getting-started-with-sphinx
    /intro/getting-started-with-mkdocs
