@@ -77,7 +77,7 @@ RealProbe recorded a total of 103,830 cycles for the operation. To contrast, let
 .. image:: ../img/cosim_rpt.png
   :alt: <RealProbe Output>
 
-This discrepancy highlights a 104.2% difference between the Co-simulation and actual on-FPGA results, emphasizing the importance of RealProbe in understanding true FPGA performance.
+This discrepancy highlights a -104.2% difference between the Co-simulation and actual on-FPGA results, emphasizing the importance of RealProbe in understanding true FPGA performance.
 
 .. note::
 
