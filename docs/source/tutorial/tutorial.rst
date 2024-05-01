@@ -22,7 +22,6 @@ Below are useful links related to RealProbe:
   :hidden:
 
   about
-  setup
   prepare
   install
   usage
