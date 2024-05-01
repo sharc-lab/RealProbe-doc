@@ -46,7 +46,7 @@ html_theme_options = {
     'includehidden': True,
     'titles_only': False
 }
-html_logo='./img/realprobe_long_logo_cap.png'
+html_logo='./img/realprobe_long_logo.png'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
