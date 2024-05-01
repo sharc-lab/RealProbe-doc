@@ -27,8 +27,8 @@ First, clone the RealProbe repository from GitHub. This download should take app
 
 .. code-block:: console
 
-   | $ git clone https://github.com/sharc-lab/RealProbe.git
-   | $ cd RealProbe
+   $ git clone https://github.com/sharc-lab/RealProbe.git
+   $ cd RealProbe
 
 Step 2: Set the Download Path
 ----------------
@@ -37,16 +37,16 @@ Next, you'll need to set the path where RealProbe was downloaded. Inside the Rea
 
 .. code-block:: console
 
-   | $ cd realprobe
-   | $ vi Makefile
+   $ cd realprobe
+   $ vi Makefile
 
 In the Makefile, modify the top lines to reflect the absolute path where the RealProbe repository is cloned:
 
 .. code-block:: console
 
-   | $ # Change the path to be absolute path
-   | $ REALPROBE_PATH := <ABSOLUTE PATH>/realprobe
-   | $ HLS_BUILD_PATH := <ABSOLUTE PATH>/hls-build
+   $ # Change the path to be absolute path
+   $ REALPROBE_PATH := <ABSOLUTE PATH>/realprobe
+   $ HLS_BUILD_PATH := <ABSOLUTE PATH>/hls-build
 
 
 Step 3: Navigate to the Project Path
@@ -54,8 +54,10 @@ Step 3: Navigate to the Project Path
 
 For this tutorial, we will start with the first example. Navigate to the examples folder, select the first example, and copy the Makefile from the RealProbe directory to your project directory to integrate it with your current working environment.
 
-   | $ cd ../examples/example_1
-   | $ cp ../realprobe/Makefile .
+.. code-block:: console
+
+   $ cd ../examples/example_1
+   $ cp ../realprobe/Makefile .
 
 This setup will prepare your environment for running RealProbe effectively on your projects.
 
