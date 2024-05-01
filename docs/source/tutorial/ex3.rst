@@ -24,7 +24,7 @@ RealProbe Output Results
 
 After running the RealProbe output section in the notebook, the performance metrics are displayed as follows:
 
-.. image:: ../img/ex3_realprobe_output.png
+.. image:: ../img/ex3_realprobe_out.png
   :alt: <RealProbe Output>
 
 
