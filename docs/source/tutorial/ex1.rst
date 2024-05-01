@@ -65,7 +65,7 @@ RealProbe Output Results
 
 When running the RealProbe output section in the notebook, you'll observe the results as shown below:
 
-.. image:: ../img/realprobe_output.png
+.. image:: ../img/ex1_realprobe_output.png
   :alt: <RealProbe Output>
 
 
