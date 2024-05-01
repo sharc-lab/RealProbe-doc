@@ -10,7 +10,7 @@ Preparing Vitis HLS tcl Script
 
 Vitis HLS can be run from the GUI, but also in batch mode from a Tcl script. Below is the example format of hls.tcl file, and RealProbe reads solution_name, project_name, target_device for future bitstream generation. 
 
-#. Set variables
+1. Set variables
 
 .. code-block:: 
 
@@ -18,68 +18,72 @@ Vitis HLS can be run from the GUI, but also in batch mode from a Tcl script. Bel
   set project_name project
   set target_device {xc7z020clg400-1}
 
-#. Open a project and remove any existing data
+2. Open a project and remove any existing data
 
 .. code-block:: 
 
   open_project -reset $project_name
 
-#. Add kernel and testbench
+3. Add kernel and testbench
+
 .. code-block:: 
 
   add_files matrixmultiplication.cpp
   add_files -tb matrixmultiplication-top.cpp
   add_files -tb matrixmultiplication.gold.dat
 
-#. Tell the top
+4. Tell the top
 
 .. code-block:: 
 
   set_top matrixmul
 
-#. Open a solution and remove any existing data
+5. Open a solution and remove any existing data
 
 .. code-block:: 
 
   open_solution -reset $solution_name
 
-#. Set the target device
+6. Set the target device
 
 .. code-block:: 
 
   set_part $target_device
 
-#. Create a virtual clock for the current solution
+7. Create a virtual clock for the current solution
 
 .. code-block:: 
 
   create_clock -period 10 -name default
 
-#. Compile and runs pre-synthesis C simulation using the provided C test bench
+8. Compile and runs pre-synthesis C simulation using the provided C test bench
 
 .. code-block:: 
 
   csim_design -code_analyzer -clean  
 
-#. Run C synthesis
+9. Run C synthesis
 
 .. code-block:: 
 
   csynth_design
 
-#. Export design to be formatted suitable for adding to Xiling IP catalog
+10. Export design to be formatted suitable for adding to Xiling IP catalog
 
 .. code-block:: 
 
   export_design -format ip_catalog
   
-#. Execute post-synthesis co-simulation of the synthesized RTL with the original C/C++-based test bench
+11. Execute post-synthesis co-simulation of the synthesized RTL with the original C/C++-based test bench
 
 .. code-block:: 
 
   cosim_design -trace_level all
 
-#. Close the project
+12. Close the project
+
+.. code-block:: 
+
   close_project
 
 .. note::
@@ -100,4 +104,4 @@ Deploy on FPGA
 
 After running RealProbe, there should be FPGA folder generated in current project directory. It is the folder that extracts all the files needed to run on board. Ipynb file for FPGA is automatically generated (not including software impementation for functional verification), but includes RealProbe results.
 
-on Synestia Pynq-Z2 FPGA Jupyter server, go to the project directory (project directory is shared on Synestia desktop and Pynq-Z2 board). Go find FPGA folder, and run the commands on ipynb file using Shift + Enter
+on Synestia Pynq-Z2 FPGA Jupyter server, go to the project directory (project directory is shared on Synestia desktop and Pynq-Z2 board). Go find FPGA folder, and run the commands on ipynb file using ``Shift + Enter``
