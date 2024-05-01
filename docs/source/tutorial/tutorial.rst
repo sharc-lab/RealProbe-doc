@@ -18,14 +18,15 @@ Below are useful links related to RealProbe:
    | RealProbe FCCM 2024 Tutorial: `Visit Tutorial Page <https://sharclab.ece.gatech.edu/open-source-projects/>`_
    | Related Publication: `TOBEUPDATED <https://sharclab.ece.gatech.edu/>`_
 
-.. toctree::
-  :hidden:
-
-  about
-  prepare
-  install
-  usage
-  flow
-  ex
+..
+  .. toctree::
+    :hidden:
+  
+    about
+    prepare
+    install
+    usage
+    flow
+    ex
 
 
