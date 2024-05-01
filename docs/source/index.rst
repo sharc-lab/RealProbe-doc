@@ -47,7 +47,7 @@ RealProbe
 
 : On-FPGA profiling tool for HLS designs
 
-Welcome to RealProbe, the on-FPGA profiling tool designed for High-Level Synthesis (HLS) designs. By simply adding :guilabel: `#pragma HLS RealProbe` to your code, you can gain a comprehensive understanding of how your HLS designs perform on FPGA hardware, including detailed insights into all sub-modules, function calls, and loops.
+Welcome to RealProbe, the on-FPGA profiling tool designed for High-Level Synthesis (HLS) designs. By simply adding ``#pragma HLS RealProbe`` to your code, you can gain a comprehensive understanding of how your HLS designs perform on FPGA hardware, including detailed insights into all sub-modules, function calls, and loops.
 
 
 Features
@@ -122,4 +122,4 @@ Start with the basics of setting up your project:
   Start to modify RealProbe as a developer.
 
 
-**For any inquiries, please contact `Jiho Kim <https://jihoray.github.io\>`**
+**For any inquiries, please contact `Jiho Kim <https://jihoray.github.io\>`_**
