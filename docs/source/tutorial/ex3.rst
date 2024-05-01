@@ -15,9 +15,9 @@ To integrate RealProbe and override the default Vitis HLS functions, execute the
 Deploy on FPGA
 --------------------
 
-After RealProbe has been run, a directory named :guilabel: `FPGA` is created in your project directory. This folder contains all files necessary for on-board execution, including an automatically generated Jupyter Notebook which captures the RealProbe results but excludes the software implementation for functional verification.
+After RealProbe has been run, a directory named ``FPGA`` is created in your project directory. This folder contains all files necessary for on-board execution, including an automatically generated Jupyter Notebook which captures the RealProbe results but excludes the software implementation for functional verification.
 
-Navigate to the :guilabel: `FPGA` directory on the Synestia Pynq-Z2 FPGA Jupyter server and execute the notebook commands using :guilabel: `Shift + Enter`.
+Navigate to the  ``FPGA`` directory on the Synestia Pynq-Z2 FPGA Jupyter server and execute the notebook commands using ``Shift + Enter``.
 
 RealProbe Output Results
 --------------------
