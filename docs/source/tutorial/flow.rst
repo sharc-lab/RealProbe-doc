@@ -13,6 +13,7 @@ Here’s a look at the traditional FPGA design flow for context:
 RealProbe enhances this process by automating the steps between the HLS source code and the on-board execution, significantly simplifying the workflow for users.
 
 Flow of RealProbe
+----------------
 
 1. Identify RealProbe pragma
    RealProbe leverages a custom-modified clang/LLVM library to automatically detect #pragma HLS RealProbe insertions in the source code.
