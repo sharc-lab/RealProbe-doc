@@ -7,6 +7,12 @@ RealProbe
    :caption: Tutorial
 
    ./tutorial/tutorial
+   ./tutorial/about
+   ./tutorial/setup
+   ./tutorial/install
+   ./tutorial/usage
+   ./tutorial/flow
+   ./tutorial/ex
 
 .. toctree::
    :maxdepth: 2
