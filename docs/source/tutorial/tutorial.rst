@@ -27,8 +27,6 @@ Below are useful links related to RealProbe:
   install
   usage
   flow
-  ex1
-  ex2
-  ex3
+  ex
 
 
