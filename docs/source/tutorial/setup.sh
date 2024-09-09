@@ -6,7 +6,7 @@ Step-by-step guide on how to download and use RealProbe.
 Prerequisites
 ------------
 
-Before starting, ensure both Vitis HLS and Vivado version is v2023.1. 
+Before starting, ensure both Vitis HLS and Vivado version is v2023.1. RealProbe is tested on Red Hat Enterprise Linux 7.9.
 
 Directory Path Setup
 ------------
