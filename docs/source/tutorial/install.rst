@@ -13,11 +13,15 @@ Keep this structure in mind as you follow the steps outlined below.
 Prerequisites
 ------------
 
-For this tutorial, you'll need Vitis HLS and Vivado version 2023.1. Please ensure that both tools are installed and updated to this version before proceeding.
+For this tutorial, you'll need Vitis HLS and Vivado version 2023.1. Please ensure that both tools are installed and updated to this version before proceeding. 
 
 .. note::
 
     RealProbe is tested for Vitis HLS and Vivado version 2023.1. While it may theoretically support other versions if they include an open-sourced llvm build frontend, it is crucial that Vitis HLS, Vivado, and the Vitis HLS LLVM build library are all consistent and use the same version.
+
+.. note::
+
+RealProbe is tested on Red Hat Enterprise Linux 7.9. There are many ways you can use Linux on Windows; you can choose any ways based on your preferences.
 
 
 Step 1: Download RealProbe
