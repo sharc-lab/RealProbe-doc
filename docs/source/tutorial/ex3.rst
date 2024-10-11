@@ -10,7 +10,7 @@ To integrate RealProbe and override the default Vitis HLS functions, execute the
 
 .. code-block:: 
 
-  make all
+  make realprobe
 
 Deploy on FPGA
 --------------------
